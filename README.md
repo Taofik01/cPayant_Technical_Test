@@ -1,7 +1,7 @@
-# Web Development Tasks: String Manipulation, Stack & Queue, Web API Interaction
+# Full stack Developer Role Tasks: String Manipulation, Stack & Queue, Web API Interaction
 
 ## **Description**
-This repository contains the solutions for three web development tasks:
+This repository contains the solutions for three development tasks:
 1. **String Manipulation** - Convert case and remove vowels from a string.
 2. **Stack & Queue** - Implement Stack and Queue data structures.
 3. **Web API Interaction** - Fetch real-time exchange rates from a public API.
@@ -11,7 +11,7 @@ This repository contains the solutions for three web development tasks:
 ## **Features**
 - String transformation that handles case inversion and vowel removal.
 - Stack and Queue implementation with essential methods.
-- Fetches real-time exchange rates for multiple currencies (BTC, ETH, NGN, GBP, KES).
+- Fetches real-time exchange rates for multiple currencies (NGN, GBP, KES,GHS,TZS,UGX,RWF,ZAR).
 
 ---
 
@@ -19,7 +19,7 @@ This repository contains the solutions for three web development tasks:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-repository.git
+git clone https://github.com/Taofik01/cPayant_Technical_Test.git
 cd your-repository
 ```
 ### Step 2: Install Dependencies
@@ -36,7 +36,9 @@ TARGET_CURRENCIES=GBP,NGN,KES,GHS,TZS,UGX,RWF,ZAR
 ```
 ### Step 4: Run the Script
 ``` bash
-node src/your_script.js
+node src/stackAndQueue.js
+node src/stringManipulation.js
+node src/webApiInteractions.js
 ```
 
 ### Step 5: Run Tests
