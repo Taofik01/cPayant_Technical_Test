@@ -60,11 +60,14 @@ npm test
 ```
 
 # Supported Currencies
-- BTC: Bitcoin
-- ETH: Ethereum
 - NGN: Nigerian Naira
 - GBP: British Pound
 - KES: Kenyan Shilling
+- GHS: Ghanaian Cedi
+- TZS: Tanzanian Shilling
+- UGX: Ugandan Shilling
+- RWF: Rwandan Franc
+- ZAR: South African Rand
 
 ### Error Handling
 Invalid API Key: Throws an API error.
