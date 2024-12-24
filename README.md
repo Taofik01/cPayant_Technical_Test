@@ -20,7 +20,7 @@ This repository contains the solutions for three development tasks:
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/Taofik01/cPayant_Technical_Test.git
-cd your-repository
+cd cPayant_Technical_Test
 ```
 ### Step 2: Install Dependencies
 ``` bash

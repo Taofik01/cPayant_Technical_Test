@@ -16,7 +16,7 @@ describe('Web API interaction', () => {
     expect(rates).toHaveProperty('UGX');
     expect(rates).toHaveProperty('RWF');
     expect(rates).toHaveProperty('ZAR');
-    console.log('API Rates:', rates); // Log the output
+    console.log('Currency Rates in dollar:', rates); // Log the output
 });
 });
 

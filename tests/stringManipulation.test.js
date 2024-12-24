@@ -6,3 +6,4 @@ test('Transform String Correctly', () => {
     expect(transformString('Aeiou')).toBe('');
     expect(() => transformString(123)).toThrow('Input must be a string.')
 });
+

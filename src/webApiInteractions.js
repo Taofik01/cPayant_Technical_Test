@@ -1,7 +1,9 @@
 require('dotenv').config();  //Load the environment variables
-const fetch = require('node-fetch');
+const fetch = require('node-fetch');  
 
 async function fetchData() {
+
+    // Using exchange rate api to get the current rate of currencies where cpayant currently operates 
 
     const apiKey = process.env.EXCHANGERATE_API_KEY;
     const baseCurrency = process.env.BASE_CURRENCY || 'USD';
@@ -10,6 +12,7 @@ async function fetchData() {
 
     if (!apiKey) {
         throw new Error('APi key is not set. Please check your .env file!')
+        //Check for key before sending request 
     }
 
 
@@ -19,6 +22,8 @@ async function fetchData() {
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
+
+            // check if the api has been called successfully
         }
         
         const data = await response.json();  // Parse the JSON response
